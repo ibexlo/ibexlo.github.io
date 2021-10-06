@@ -166,11 +166,4 @@ a.logo strong {
     zoom: 1.2;
     line-height: 1.4 !important;
   }
-  .section-copyrights p span {
-    display: inline-block;
-    width: 100%;
-  }
-  .section-copyrights p span::before {
-    content: "";
-  }
 }
