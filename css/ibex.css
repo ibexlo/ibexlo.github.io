@@ -97,6 +97,11 @@ a.logo strong {
 .section-copyrights {
   text-align: left;
 }
+.section-copyrights p span::before {
+  content: "/";
+  display: inline-block;
+  margin: 0 4px;
+}
 .scrollup {
   background: #1a1a1a url(../image/scroll-top-arrow.png) no-repeat 15px 16px !important;
 }
@@ -138,7 +143,7 @@ a.logo strong {
   .ce-feature-box-64 {
     padding: 0;
   }
-  .section-copyrights strong {
+  .section-copyrights p strong {
     display: block;
   }
   .ibexBixRowMobile1 {
@@ -160,5 +165,12 @@ a.logo strong {
     margin-top: 130px !important;
     zoom: 1.2;
     line-height: 1.4 !important;
+  }
+  .section-copyrights p span {
+    display: inline-block;
+    width: 100%;
+  }
+  .section-copyrights p span::before {
+    content: "";
   }
 }
