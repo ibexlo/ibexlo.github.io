@@ -98,7 +98,7 @@ a.logo strong {
   text-align: left;
 }
 .scrollup {
-  background: #1a1a1a url(../image/scroll-top-arrow.png) no-repeat 15px 16px;
+  background: #1a1a1a url(../image/scroll-top-arrow.png) no-repeat 15px 16px !important;
 }
 .sec-padding-6 {
   padding: 30px 0 15px 0;
