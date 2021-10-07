@@ -1796,9 +1796,6 @@ option {
 
 @media only screen and (max-width: 360px) {
   /* line 1004, ../sass/screen.scss */
-  .header-section .logo {
-    width: 85px;
-  }
 
   /* line 1007, ../sass/screen.scss */
   .header-section .main-nav .nav.top-nav {
