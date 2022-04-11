@@ -1,169 +1,108 @@
-/*
-Template: 
-category: custom
-Author: hoppaang
-Version: 1.0
-Design and Developed by: hoppaang
-*/
-body {
-  font-size: 14px;
+.nav-item a {
+  text-transform: capitalize;
 }
-a.logo {
-  padding-bottom: 20px;
-  font-size: 1.1em;
-  color: #333;
-}
-a.logo strong {
+.swiper-container h2 span {
+  display: block;
   font-size: 2em;
+}
+.post-details {
+  color: #fff;
+}
+.ibex-text-color {
   color: #a73c3d;
 }
-.slide-tmargin {
-  max-height: 600px;
+.ibex-text-color-dark {
+  color: #3f5766;
 }
-.tp-revslider-slidesli {
-  max-height: 600px;
+.ibex-text-color-deep-green {
+  color: #40ab66;
 }
-.header-section.pin-start a.logo {
-  color: #fff;
+.ibex-text-color-operato {
+  color: #0791ad;
 }
-.header-section.pin-start a.logo strong {
-  color: #f16154;
+.ibex-text-color-warehouse {
+  color: #0082f1;
 }
-.bizArea {
-  background: url(../image/bizArea1.png) no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
-.bizArea-type2 {
-  background-image: url(../image/bizArea2.png);
-}
-.bizArea-type3 {
-  background-image: url(../image/bizArea3.png);
-}
-.col-md-4 {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.bizArea-ment {
-  position: absolute;
-  width: 80%;
-  margin-top: 290px;
-  margin-left: -10%;
-  padding: 15px 20px;
-  background-color: rgba(167, 60, 61, 0.85);
-  border-radius: 9px;
+.ibex-text-light-yellow-color {
   color: #ffeebf;
-  font-size: 0.9em;
 }
-.bizArea-ment h5 {
-  margin: 0;
-  color: #fff;
-  text-transform: uppercase;
+.ibex-background-color {
+  background-color: #a73c3d;
 }
-.bizArea-ment p {
-  margin: 0;
-  line-height: 1.6;
-}
-.ce-feature-box-64 .b-line-2 {
-  background-color: transparent;
-}
-.ce-feature-box-64:hover .b-line {
+.ibex-background-color-opacity8 {
   background-color: rgba(167, 60, 61, 0.8);
 }
-.ce-feature-box-64.bmargin {
-  margin-bottom: 20px;
-  border-radius: 9px;
-  box-shadow: 2px 2px 2px 0px rgb(0 0 0 / 20%);
+.ibex-background-color-deep-green {
+  background-color: #40ab66;
 }
-.ce-sub-text {
-  width: 95%;
-  color: initial;
-  line-height: 1.7;
+.ibex-background-color-operato {
+  background-color: #0791ad;
 }
-.sec-title-container {
-  padding-bottom: 80px;
+.ibex-background-color-warehouse {
+  background-color: #0082f1;
 }
-.footer-logo {
-  margin: 0;
+.word-keep {
+  word-break: keep-all;
+}
+.small-h5 {
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+.chef-modules .feature-box {
+  height: 100%;
+}
+
+[main] .post-details {
+  position: absolute;
+  border-radius: 10px;
+  width: 90%;
+  margin-top: -30px;
+  margin-left: 5%;
+  padding: 10px 15px 15px 15px;
+}
+[main] .bigscreen-animation img {
+  height: 100%;
+  min-height: 700px;
+}
+[main] .bigscreen {
+  left: 0;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8s;
+  overflow: hidden;
+}
+[main] .partners .swiper-slide img {
+  width: 70%;
+}
+.map.grayscale {
+  filter: grayscale(40%);
+}
+.gmaps-holder-2 {
+  padding: 0;
+  height: 500px;
+}
+.moduleicon-chef {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.smartfactory .nav-item .active i {
+  color: #40ab66 !important;
+}
+.icon-eq {
+  width: 85px;
+  height: 85px;
+}
+.biz-warehouse-p {
+  padding: 3px 0;
+  text-align: left;
   color: #fff;
 }
-.footer-logo strong {
-  font-size: 2em;
+.history li strong {
+  margin-right: 10px;
 }
-.footer-logo + p {
-  color: #aaa;
-  font-size: 0.9em;
-}
-.section-copyrights {
-  text-align: left;
-}
-.section-copyrights p span::before {
-  content: "/";
-  display: inline-block;
-  margin: 0 4px;
-}
-.scrollup {
-  background: #1a1a1a url(../image/scroll-top-arrow.png) no-repeat 15px 16px !important;
-}
-.sec-padding-6 {
-  padding: 30px 0 15px 0;
-}
-@media only screen and (max-width: 1000px) {
-  .slide-tmargin {
-    max-height: 400px;
-  }
-  .tp-revslider-slidesli {
-    max-height: 400px;
-  }
-  .header-section {
-    padding-bottom: 0;
-  }
-  .header-section a.logo {
-    color: #fff;
-  }
-  .header-section a.logo strong {
-    color: #f16154;
-  }
-  .sec-title-container {
-    padding-bottom: 30px;
-  }
-  .ibexBixRowMobile {
-    margin: 0;
-  }
-  .bizArea-ment {
-    position: initial;
-    width: 100%;
-    margin-top: 305px;
-    margin-left: 0;
-    overflow: hidden;
-    border-radius: 0;
-    height: 97px;
-    font-size: 1em;
-  }
-  .ce-feature-box-64 {
-    padding: 0;
-  }
-  .section-copyrights p strong {
-    display: block;
-  }
-  .ibexBixRowMobile1 {
-    margin-top: 30px;
-  }
-  .ibexBixRowMobile2 {
-    margin-top: 100px;
-    zoom: 1.5;
-  }
-  .ibexBixRowMobile3 {
-    margin-top: 130px !important;
-    zoom: 1.2;
-  }
-}
-@media only screen and (max-width: 460px) {
-  .ibexBixRowMobile3 {
-    width: 270px;
-    white-space: initial !important;
-    margin-top: 130px !important;
-    zoom: 1.2;
-    line-height: 1.4 !important;
-  }
+.company .process-step-item {
+  width: 100%;
 }
