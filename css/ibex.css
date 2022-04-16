@@ -106,3 +106,28 @@
 .company .process-step-item {
   width: 100%;
 }
+[floating-notice] {
+  position: absolute;
+  top: 15%;
+  left: calc(50% - 275px);
+  background-color: #fff;
+  z-index: 100;
+  border-radius: 10px;
+  max-width: 550px;
+  overflow: hidden;
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: 3px 7px 10px 10px rgba(0, 0, 0, 0.15);
+}
+[floating-notice] img {
+  width: 100%;
+}
+.alert-dismissible button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #b5a89b;
+  background: transparent;
+  border: 0;
+  font-size: 30px;
+}
