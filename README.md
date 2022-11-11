@@ -1,2 +1,2 @@
 # ibexlo.github.io
-ibexlo.com homepage
+bexlo.co.kr homepage
